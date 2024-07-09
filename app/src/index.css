@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+}
+
+#root {
+  display: flex;
+  height: 100vh;
+}
+
+.MuiDrawer-paper {
+  width: 240px;
+  box-sizing: border-box;
+}
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+  margin-top: 64px; /* Adjust to match the height of the Navbar */
+  margin-left: 240px; /* Adjust to match the width of the Sidebar */
+  background-color: #f9f9f9; /* Background color for main content */
+}
+
+header {
+  background-color: #1976d2;
+  color: white;
+  width: 100%;
+  z-index: 1201;
+  position: fixed; /* Make the header fixed */
+  top: 0;
+  left: 0;
+  box-shadow: 0px 4px 2px -2px gray; /* Add shadow to the header */
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.MuiCard-root {
+  min-width: 200px;
+  max-width: 300px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.MuiListItemIcon-root {
+  min-width: 40px;
+}
+
+.MuiListItemText-root {
+  margin: 0;
+}
